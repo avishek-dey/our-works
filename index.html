@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
@@ -22,13 +24,17 @@
       <div class="menus">
         <ul>
           <li>About</li>
-          <li>Pricing</li>
+          <li>
+            <a href="google.com" onclick="handleEncryptedLinkClick(event)"
+              >Pricing <i class="ri-sparkling-fill"></i
+            ></a>
+          </li>
           <button class="btn">Contact Us</button>
         </ul>
       </div>
     </nav>
     <section class="section-1">
-      <h1>Our Work</h1>
+      <h1 class="h1">Our Work</h1>
       <div class="tags">
         <div class="tag-btns">
           <button class="tag-btn" data-tag="all">All</button>
@@ -44,118 +50,165 @@
       </div>
 
       <div class="gallery grid-view">
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 001.png" alt="Graphic 001.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 002.png" alt="Graphic 002.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 003.png" alt="Graphic 003.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 007.png" alt="Graphic 007.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 008.png" alt="Graphic 008.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 01.png" alt="Graphic 01.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 02.png" alt="Graphic 02.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 03.png" alt="Graphic 03.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 04.png" alt="Graphic 04.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 05.png" alt="Graphic 05.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 06.png" alt="Graphic 06.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 07.png" alt="Graphic 07.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 08.png" alt="Graphic 08.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 09.png" alt="Graphic 09.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 10.png" alt="Graphic 10.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 11.png" alt="Graphic 11.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\Graphic 12.png" alt="Graphic 12.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic01.jpg" alt="graphic01.jpg" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic02.jpg" alt="graphic02.jpg" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic03.jpg" alt="graphic03.jpg" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic04.jpg" alt="graphic04.jpg" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic05.jpg" alt="graphic05.jpg" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic28.png" alt="graphic28.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic29.png" alt="graphic29.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic30.png" alt="graphic30.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic31.png" alt="graphic31.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic32.png" alt="graphic32.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic33.png" alt="graphic33.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic34.png" alt="graphic34.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic35.png" alt="graphic35.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic36.png" alt="graphic36.png" />
+        </div>
+        <div class="image" data-tags="graphics">
+          <img src="\graphic37.png" alt="graphic37.png" />
+        </div>
+
         <div class="image" data-tags="lp">
-          <img src="Landing page 01.png" alt="Nature 1" />
+          <img src="\Laending page 6 (1).jpg" alt="Laending page 6 (1).jpg" />
         </div>
         <div class="image" data-tags="lp">
-          <img src="Landing page 02.png" alt="Animal 1" />
+          <img src="\Laending page 6 (1).png" alt="Laending page 6 (1).png" />
         </div>
         <div class="image" data-tags="lp">
-          <img src="Landing page 03.png" alt="City 1" />
+          <img src="\Laending page 6 (2).png" alt="Laending page 6 (2).png" />
         </div>
         <div class="image" data-tags="lp">
-          <img src="Landing page 04.png" alt="Nature 2" />
+          <img src="\Laending page 6 (3).png" alt="Laending page 6 (3).png" />
         </div>
         <div class="image" data-tags="lp">
-          <img src="Landing page 05.png" alt="Animal 2" />
+          <img src="\Laending page 6 (4).png" alt="Laending page 6 (4).png" />
         </div>
         <div class="image" data-tags="lp">
-          <img src="Landing page 6.jpg" alt="Animal 2" />
+          <img src="\Landing page 001.png" alt="Landing page 001.png" />
         </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 01.png" alt="graphics" />
+        <div class="image" data-tags="lp">
+          <img src="\Landing page 002.png" alt="Landing page 002.png" />
         </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 02.png" alt="graphics" />
+        <div class="image" data-tags="lp">
+          <img src="\Landing page 01.png" alt="Landing page 01.png" />
         </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 03.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 04.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 05.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 06.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 07.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 08.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 09.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 10.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 11.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/Graphic 12.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic01.jpg" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic02.jpg" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic03.jpg" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic04.jpg" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic05.jpg" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic28.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic29.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic30.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic31.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic32.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic33.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic34.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic35.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic36.png" alt="graphics" />
-        </div>
-        <div class="image" data-tags="graphics">
-          <img src="images/graphic37.png" alt="graphics" />
+        <div class="image" data-tags="lp">
+          <img
+            src="\Shivli-Website Design-1440-Homepage.jpg"
+            alt="Shivli-Website Design-1440-Homepage.jpg"
+          />
         </div>
         <div class="image" data-tags="mobile">
-          <img src="images/Mobile 01.png" alt="graphics" />
+          <img src="\Mobile 01.png" alt="Mobile 01.png" />
         </div>
         <div class="image" data-tags="mobile">
-          <img src="images/Mobile 02.png" alt="graphics" />
+          <img src="\Mobile 02.png" alt="Mobile 02.png" />
         </div>
         <div class="image" data-tags="mobile">
-          <img src="images/Mobile 03.png" alt="graphics" />
+          <img src="\Mobile 03.png" alt="Mobile 03.png" />
         </div>
-        <!-- Add more images with appropriate data-tags -->
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close"><i class="ri-close-circle-fill"></i></span>
+        <img class="modal-content" id="img01" />
       </div>
     </section>
 
+    <!-- Recommended -->
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
