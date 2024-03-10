@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="overlay">
+      <div id="password-form">
+        <h2>Please enter the password to continue</h2>
+        <input type="password" id="password-input" />
+        <button onclick="checkPassword()">Submit</button>
+      </div>
+    </div>
+    <nav>
+      <div class="logo"><img src="logo.png" alt="logo" width="120px" /></div>
+      <div class="menus">
+        <ul>
+          <li>About</li>
+          <li>
+            <a href="google.com" onclick="handleEncryptedLinkClick(event)"
+              >Pricing <i class="ri-sparkling-fill"></i
+            ></a>
+          </li>
+          <button class="btn">Contact Us</button>
+        </ul>
+      </div>
+    </nav>
+    <section class="section-1">
+      <h1 class="h1">Our Work</h1>
+      <div class="tags">
+        <div class="tag-btns">
+          <button class="tag-btn" data-tag="All">All</button>
+          <button class="tag-btn" data-tag="Graphics">Graphics (0)</button>
+          <button class="tag-btn" data-tag="Mobile">Mobile Apps(0)</button>
+          <button class="tag-btn" data-tag="Website">Landing page(0)</button>
+        </div>
+        <div class="toggle-view">
+          <button class="column-toggle-btn">
+            <i class="ri-stacked-view"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="gallery grid-view">
+        <div class="graphic">
+          <div
+            class="image"
+            href="Graphic 01.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 01.png" alt="Graphic 1" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 02.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 02.png" alt="Graphic 2" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 03.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 03.png" alt="Graphic 3" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 04.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 04.png" alt="Graphic 4" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 05.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 05.png" alt="Graphic 5" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 06.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 06.png" alt="Graphic 6" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 07.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 07.png" alt="Graphic 7" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 08.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 08.png" alt="Graphic 8" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 09.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 09.png" alt="Graphic 9" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 10.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 10.png" alt="Graphic 10" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 11.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 11.png" alt="Graphic 11" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 12.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 12.png" alt="Graphic 12" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 13.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 13.png" alt="Graphic 13" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 14.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 14.png" alt="Graphic 14" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 15.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 15.png" alt="Graphic 15" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 16.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 16.png" alt="Graphic 16" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 17.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 17.png" alt="Graphic 17" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 18.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 18.png" alt="Graphic 18" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 19.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 19.png" alt="Graphic 19" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 20.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 20.png" alt="Graphic 20" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 21.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 21.png" alt="Graphic 21" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 22.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 22.png" alt="Graphic 22" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 23.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 23.png" alt="Graphic 23" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 24.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 24.png" alt="Graphic 24" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 25.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 25.png" alt="Graphic 25" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 26.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 26.png" alt="Graphic 26" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 27.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 27.png" alt="Graphic 27" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 28.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 28.png" alt="Graphic 28" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 29.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 29.png" alt="Graphic 29" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 30.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 30.png" alt="Graphic 30" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 31.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 31.png" alt="Graphic 31" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 32.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 32.png" alt="Graphic 32" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 33.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 33.png" alt="Graphic 33" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 34.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 34.png" alt="Graphic 34" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 35.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 35.png" alt="Graphic 35" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 36.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 36.png" alt="Graphic 36" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 37.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 37.png" alt="Graphic 37" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 38.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 38.png" alt="Graphic 38" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 39.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 39.png" alt="Graphic 39" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 40.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 40.png" alt="Graphic 40" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 41.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 41.png" alt="Graphic 41" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 42.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 42.png" alt="Graphic 42" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 43.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 43.png" alt="Graphic 43" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 44.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 44.png" alt="Graphic 44" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 45.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 45.png" alt="Graphic 45" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 46.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 46.png" alt="Graphic 46" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 47.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 47.png" alt="Graphic 47" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 48.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 48.png" alt="Graphic 48" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 49.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 49.png" alt="Graphic 49" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 50.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 50.png" alt="Graphic 50" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 51.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 51.png" alt="Graphic 51" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 52.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 52.png" alt="Graphic 52" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 53.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 53.png" alt="Graphic 53" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 54.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 54.png" alt="Graphic 54" />
+          </div>
+
+          <div
+            class="image"
+            href="Graphic 55.png"
+            data-fancybox="gallery"
+            data-tags="Graphics"
+          >
+            <img src="Graphic 55.png" alt="Graphic 55" />
+          </div>
+        </div>
+
+        <div class="website">
+          <div
+            class="image"
+            href="Landing page 01.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 01.png" alt="Landing page 1" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 02.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 02.png" alt="Landing page 2" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 03.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 03.png" alt="Landing page 3" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 04.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 04.png" alt="Landing page 4" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 05.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 05.png" alt="Landing page 5" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 06.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 06.png" alt="Landing page 6" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 07.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 07.png" alt="Landing page 7" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 08.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 08.png" alt="Landing page 8" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 09.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 09.png" alt="Landing page 9" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 10.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 10.png" alt="Landing page 10" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 11.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 11.png" alt="Landing page 11" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 12.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 12.png" alt="Landing page 12" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 13.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 13.png" alt="Landing page 13" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 14.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 14.png" alt="Landing page 14" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 15.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 15.png" alt="Landing page 15" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 16.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 16.png" alt="Landing page 16" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 17.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 17.png" alt="Landing page 17" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 18.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 18.png" alt="Landing page 18" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 19.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 19.png" alt="Landing page 19" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 20.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 20.png" alt="Landing page 20" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 21.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 21.png" alt="Landing page 21" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 22.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 22.png" alt="Landing page 22" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 23.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 23.png" alt="Landing page 23" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 24.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 24.png" alt="Landing page 24" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 25.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 25.png" alt="Landing page 25" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 26.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 26.png" alt="Landing page 26" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 27.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 27.png" alt="Landing page 27" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 28.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 28.png" alt="Landing page 28" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 29.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 29.png" alt="Landing page 29" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 30.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 30.png" alt="Landing page 30" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 31.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 31.png" alt="Landing page 31" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 32.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 32.png" alt="Landing page 32" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 33.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 33.png" alt="Landing page 33" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 34.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 34.png" alt="Landing page 34" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 35.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 35.png" alt="Landing page 35" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 36.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 36.png" alt="Landing page 36" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 37.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 37.png" alt="Landing page 37" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 38.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 38.png" alt="Landing page 38" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 39.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 39.png" alt="Landing page 39" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 40.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 40.png" alt="Landing page 40" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 41.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 41.png" alt="Landing page 41" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 42.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 42.png" alt="Landing page 42" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 43.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 43.png" alt="Landing page 43" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 44.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 44.png" alt="Landing page 44" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 45.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 45.png" alt="Landing page 45" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 46.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 46.png" alt="Landing page 46" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 47.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 47.png" alt="Landing page 47" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 48.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 48.png" alt="Landing page 48" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 49.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 49.png" alt="Landing page 49" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 50.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 50.png" alt="Landing page 50" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 51.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 51.png" alt="Landing page 51" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 52.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 52.png" alt="Landing page 52" />
+          </div>
+
+          <div
+            class="image"
+            href="Landing page 53.png"
+            data-fancybox="gallery"
+            data-tags="Website"
+          >
+            <img src="Landing page 53.png" alt="Landing page 53" />
+          </div>
+        </div>
+
+        <div class="mobile">
+          <div
+            class="image"
+            href="Mobile 01.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 01.png" alt="Mobile 1" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 02.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 02.png" alt="Mobile 2" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 03.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 03.png" alt="Mobile 3" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 04.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 04.png" alt="Mobile 4" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 05.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 05.png" alt="Mobile 5" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 06.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 06.png" alt="Mobile 6" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 07.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 07.png" alt="Mobile 7" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 08.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 08.png" alt="Mobile 8" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 09.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 09.png" alt="Mobile 9" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 10.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 10.png" alt="Mobile 10" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 11.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 11.png" alt="Mobile 11" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 12.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 12.png" alt="Mobile 12" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 13.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 13.png" alt="Mobile 13" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 14.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 14.png" alt="Mobile 14" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 15.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 15.png" alt="Mobile 15" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 16.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 16.png" alt="Mobile 16" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 17.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 17.png" alt="Mobile 17" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 18.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 18.png" alt="Mobile 18" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 19.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 19.png" alt="Mobile 19" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 20.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 20.png" alt="Mobile 20" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 21.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 21.png" alt="Mobile 21" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 22.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 22.png" alt="Mobile 22" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 23.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 23.png" alt="Mobile 23" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 24.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 24.png" alt="Mobile 24" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 25.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 25.png" alt="Mobile 25" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 26.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 26.png" alt="Mobile 26" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 27.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 27.png" alt="Mobile 27" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 28.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 28.png" alt="Mobile 28" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 29.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 29.png" alt="Mobile 29" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 30.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 30.png" alt="Mobile 30" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 31.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 31.png" alt="Mobile 31" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 32.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 32.png" alt="Mobile 32" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 33.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 33.png" alt="Mobile 33" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 34.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 34.png" alt="Mobile 34" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 35.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 35.png" alt="Mobile 35" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 36.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 36.png" alt="Mobile 36" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 37.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 37.png" alt="Mobile 37" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 38.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 38.png" alt="Mobile 38" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 39.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 39.png" alt="Mobile 39" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 40.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 40.png" alt="Mobile 40" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 41.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 41.png" alt="Mobile 41" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 42.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 42.png" alt="Mobile 42" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 43.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 43.png" alt="Mobile 43" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 44.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 44.png" alt="Mobile 44" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 45.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 45.png" alt="Mobile 45" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 46.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 46.png" alt="Mobile 46" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 47.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 47.png" alt="Mobile 47" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 48.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 48.png" alt="Mobile 48" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 49.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 49.png" alt="Mobile 49" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 50.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 50.png" alt="Mobile 50" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 51.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 51.png" alt="Mobile 51" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 52.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 52.png" alt="Mobile 52" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 53.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 53.png" alt="Mobile 53" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 54.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 54.png" alt="Mobile 54" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 55.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 55.png" alt="Mobile 55" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 56.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 56.png" alt="Mobile 56" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 57.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 57.png" alt="Mobile 57" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 58.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 58.png" alt="Mobile 58" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 59.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 59.png" alt="Mobile 59" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 60.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 60.png" alt="Mobile 60" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 61.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 61.png" alt="Mobile 61" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 62.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 62.png" alt="Mobile 62" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 63.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 63.png" alt="Mobile 63" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 64.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 64.png" alt="Mobile 64" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 65.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 65.png" alt="Mobile 65" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 66.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 66.png" alt="Mobile 66" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 67.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 67.png" alt="Mobile 67" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 68.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 68.png" alt="Mobile 68" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 69.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 69.png" alt="Mobile 69" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 70.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 70.png" alt="Mobile 70" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 71.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 71.png" alt="Mobile 71" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 72.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 72.png" alt="Mobile 72" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 73.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 73.png" alt="Mobile 73" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 74.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 74.png" alt="Mobile 74" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 75.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 75.png" alt="Mobile 75" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 76.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 76.png" alt="Mobile 76" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 77.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 77.png" alt="Mobile 77" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 78.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 78.png" alt="Mobile 78" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 79.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 79.png" alt="Mobile 79" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 80.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 80.png" alt="Mobile 80" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 81.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 81.png" alt="Mobile 81" />
+          </div>
+
+          <div
+            class="image"
+            href="Mobile 82.png"
+            data-fancybox="gallery"
+            data-tags="Mobile"
+          >
+            <img src="Mobile 82.png" alt="Mobile 82" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <!-- Recommended -->
+    <script src="/node_modules/viewerjs/src/js/viewer.js"></script>
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
+    <script>
+      $(document).ready(funct data-fancybox="gallery"ion () {
+        $('[]').fancybox({
+          // Options
+        });
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
